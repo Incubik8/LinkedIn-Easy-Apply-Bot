@@ -316,7 +316,7 @@ class EasyApplyBot:
 
 
 
-        input_field = self.browser.find_element("xpath", "//input[contains(@name,'phoneNumber')]")
+        input_field = self.browser.find_element("xpath", "//input[contains('phoneNumber')]")
 
 
         if input_field:
