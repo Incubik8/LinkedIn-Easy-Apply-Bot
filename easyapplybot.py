@@ -183,7 +183,7 @@ class EasyApplyBot:
 
                 if len(links) == 0:
                     log.debug("No links found")
-                    break
+                    './/a[@data-control-id]'
 
                 IDs: list = []
                 
